@@ -17,6 +17,11 @@ body {
     cursor: pointer;
     border: none;
   }
+
+  td:hover{
+    background-color: rgba(255,255,255,0.3);
+
+  }
   
   td:first-child {
     border-right: 5px solid white;
@@ -47,7 +52,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 95vh;
+    height: 70vh;
+    position: relative;
   }
 
   header, h1{
@@ -56,4 +62,26 @@ body {
     text-align: center;
     color: white;
     height: 5vh;
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button{
+    padding: 24px;
+    background-color: #2ecc71;
+    border: none;
+  }
+
+  button:hover{
+    background-color: #51f093;
+    cursor: pointer;
+
+  }
+
+  .mt-32{
+    margin-top: 32px;
   }
